@@ -191,7 +191,7 @@ function drawShots() {
     ctx.fillStyle = color.shot
     ctx.fillRect = (shot.x, shot.y, shot.width, shot.height);
   })
-  shots.push(shot)
+  // shots.push(shot)
 }
 
 let loop;
